@@ -9,7 +9,7 @@ It comes bundled with a Morse code transcoder and a simple console emitter, and 
 
 ## How to use
 
-`npm -i -D @josho/cheatbeads`
+`npm -i -D @alleyio/cheatbeads`
 
 It's ES6, so download, fork, or whatever, and then:
 
