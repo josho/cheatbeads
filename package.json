@@ -1,5 +1,5 @@
 {
-  "name": "cheatbeads",
+  "name": "@alleyio/cheatbeads",
   "version": "1.0.0",
   "type": "module",
   "description": "Encoded communications for internally vibrating accessories while playing chess",
