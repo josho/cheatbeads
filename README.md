@@ -4,7 +4,7 @@ Cheatbeads is a framework for taking a string of text, transcoding it into a kin
 
 One use case is to convert chess notation into morse code, then emit it wirelessly to some device smuggled onto a person, allowing them to silently receive the message (eg, through vibrations) without arousing suspicion.
 
-It comes bundled with a Morse code transcoder and a simple console emitter, and knows standard chess notation. It will turn the UTF8 chess pieces into their More equivalents by way of aliasing, allowing for better compatibility with most notation exports.
+It comes bundled with a Morse code transcoder and a simple console emitter, and knows standard chess notation. It will turn the UTF8 chess pieces into their ASCII equivalents by way of aliasing, allowing for better compatibility with most notation exports.
 
 
 ## How to use
@@ -45,7 +45,7 @@ Hoarse is a structured way to communicate chess notation through three, independ
 - Board rows (numbered) are denoted by a `-` vibration from the A device. `A-`
 - Board columns (lettered) are denoted by a `.` vibration from the A device `A.`
 - Capture is `C-C-`
-- Check is `012345012345012345012345`
+- Check is `A.A-B.B-C.C-A.A-B.B-C.C-A.A-B.B-C.C-A.A-B.B-C.C-`
 
 This project contains a sample emitter for a three device setup, compatible with Hoarse.
 
