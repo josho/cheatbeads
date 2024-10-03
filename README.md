@@ -17,7 +17,7 @@ It's ES6, so download, fork, or whatever, and then:
 import Cheatbeads from './cheatbeads.js';
 
 import Hoarse from './transcoders/hoarse.js';
-import Console from './transcoders/console.js';
+import Console from './emitters/console.js';
 
 const stimulation = new Cheatbeads({
     transcoder: new Hoarse(),
